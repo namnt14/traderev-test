@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://www.traderev.com/en-ca/",
+    "supportFile": "cypress/support/index.ts",
+    "pluginsFile": "cypress/plugins/index.ts",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 30000,
+    "video": false,
+    "retries": {
+      "runMode": 1
+    }
+}

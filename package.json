@@ -1,0 +1,21 @@
+{
+  "name": "trade-rev",
+  "version": "1.0.0",
+  "description": "Cypress Tests for Trade Rev",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome --headless",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "7.2.0",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "@types/node": "15.0.1"
+  }
+}

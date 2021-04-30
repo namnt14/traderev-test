@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "declaration": false,
+      "noImplicitAny": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "sourceMap": false,
+      "types": ["cypress", "node"],
+      "lib": ["dom", "esnext"],
+      "target": "ES2019"
+    },
+    "exclude": ["dist", "node_modules"],
+    "include": ["**/*.ts"]
+}
+  
